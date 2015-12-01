@@ -22,9 +22,6 @@ public class DetailActivity extends BaseActivity implements OnClickListener{
 	private EditText titleText,accountText,passwordText,createTimeText,lastTimeText,queryTimesText,extrasText;
 	
 	private String title,account,password,extras;
-	private Date createTime,lastQueryTime;
-	private int queryTimes;
-	
 	private LinearLayout createTimeLayout,lastQueryTimeLayout,queryTimesLayout;
 	
 	private Button delButton,addButton;
